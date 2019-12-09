@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FifthApplicaion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainTitle">音楽再生</string>
+    <string name="play">再生</string>
+    <string name="pause">一時停止</string>
+    <string name="stop">停止</string>
+    <string name="subTitle1">システム音</string>
+    <string name="subTitle2">チャイム音</string>
+</resources>
