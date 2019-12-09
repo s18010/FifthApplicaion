@@ -28,11 +28,11 @@ class SubFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        playButton_system.setOnClickListener {
+        playSystemButton.setOnClickListener {
             soundPool.play(systemSound, 1.0f, 1.0f, 0, 0, 1.0f)
         }
 
-        playButton_chime.setOnClickListener {
+        playChimeButton.setOnClickListener {
             soundPool.play(chimeSound, 1.0f, 1.0f, 0, 0, 1.0f)
         }
     }
